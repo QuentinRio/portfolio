@@ -1,0 +1,14 @@
+
+@import "./_custom.scss";
+@import "./abstract/variable";
+@import "./bootstrap-icon";
+// choix 1 sans import:
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// choix 2 avec import selectionné:
+//@import "./_bs-core.scss";
+//@import "./_bs-components.scss";
+
+
+
+
