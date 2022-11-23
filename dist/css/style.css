@@ -7,6 +7,23 @@
   transform: scale(1.1);
 }
 
+img.card-img-top {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a.nav-link {
+  color: white;
+}
+
+#about h1, #about .h1 {
+  padding: 2em;
+}
+
+#competence h1, #competence .h1 {
+  padding: 2em;
+}
+
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
