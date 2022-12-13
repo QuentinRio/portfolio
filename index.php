@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="dist/css/style.css">
 </head>
 
-<body class="bg-primary">
+<body class="bg-primary container">
   <!-- Navigation -->
   <header class="vh-100 d-flex justify-content-sm-center bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-bordeau bg-gradient fixed-top py-3" id="mainNav">
@@ -163,7 +163,7 @@
     <h2 class="h1-responsive font-weight-bold text-center my-4 text-center text-white" id="contact">Contact</h2>
     <div class="row justify-content-sm-center">
 
-      <div class="col-md-9 mb-md-0 mb-5 justify-content-sm-center margform">
+      <div class="col-md-9 mb-md-0 mb-5 justify-content-sm-center">
         <form id="contact-form" name="contact-form" action="form.php" method="POST">
 
           <div class="row">
