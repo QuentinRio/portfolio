@@ -1,5 +1,12 @@
+h2{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    padding-top: 55px !important;
+}
+
 .card{
     transition: .5s;
+    margin-bottom: 10px;
 }
 .card:hover{
     transform: scale(1.1)
@@ -22,5 +29,25 @@ a.nav-link{
 #competence{
     h1{
         padding: 2em;
+    }
+}
+.btn-place{
+    margin-top: 15px !important;
+}
+
+.margform{
+    margin: 10px;
+
+
+@media screen and (max-width:576px){
+    .card{
+        width: 80%;
+        
+    }
+    .centerQuery{
+        display: flex;
+        justify-content: center;
+    }
+
     }
 }
