@@ -38,11 +38,14 @@ a.nav-link{
 .margform{
     margin: 10px;
 
+.form-check-label{
+    color: white;
+}
 
 @media screen and (max-width:576px){
     .card{
         width: 80%;
-        
+
     }
     .centerQuery{
         display: flex;

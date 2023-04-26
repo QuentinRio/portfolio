@@ -18,9 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-bordeau bg-gradient fixed-top py-3" id="mainNav">
       <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="#page-top">Portfolio</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto my-2 my-lg-0">
             <li class="nav-item"><a class="nav-link" href="#about">A Propos</a></li>
@@ -31,28 +29,21 @@
         </div>
       </div>
     </nav>
-    
 
 
 
-    
+
+
     <!-- A Propos -->
     <section class="d-flex align-items-center page-section mt-n5 pt-5 text-white bg-gradient" id="about">
       <div class="text-center">
         <h1 class="text-center p-5">Développeur web Quentin Rio</h1>
-        <p class="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, laboriosam ipsa! Quisquam repellat earum,
-          fugit
-          perferendis quibusdam accusamus impedit, optio ab quam suscipit aperiam consectetur sapiente aut ipsam quo
-          neque.</p>
-        <p> Quo ducimus quaerat dignissimos esse obcaecati ipsum praesentium vitae quod labore nulla? Porro quaerat
-          recusandae
-          necessitatibus sapiente rerum eum libero cumque quis mollitia deleniti? Sit consequatur aut non officiis
-          possimus!</p>
-        <p>Asperiores, iure. Illum eos beatae cupiditate non. Itaque reprehenderit obcaecati rerum minima illum dolorem
-          laudantium exercitationem? In reiciendis aut, doloremque a officiis qui itaque aliquid laudantium commodi
-          alias
-          necessitatibus maiores?
+        <p>
+          Après plusieurs années au sein de l'entreprise Micromania au poste de responsable de magasin, j'ai décidé d'effectuer
+          une reconversion professionnelle dans le domaine du développement web.
+          Attiré depuis peu par l'univers du développement, je me suis inscrit au centre de formation du Greta de lyon afin
+          d'apprendre les bases et les bonnes pratiques du développement web.
+          Au sein de la formation, j'ai pu apprendre plusieurs langages en front end (html, CSS, JavaScript) et back end (java, php).
         </p>
       </div>
     </section>
@@ -68,7 +59,7 @@
             <div class="card">
               <img src="img/php-logo.svg" class="card-img-top" alt="logo-php">
               <div class="card-block">
-                <h4 class="card-title">PHP</h4>                
+                <h4 class="card-title">PHP</h4>
                 <p class="card-text p-y-1">Framework Laravel</p>
               </div>
             </div>
@@ -121,42 +112,43 @@
       </div>
     </div>
   </section>
+
   <!-- Mes Projets -->
   <section id="mesProjets">
     <h2 class="text-center text-white bg-gradient">Mes Projets</h2>
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active d-flex justify-content-center ">
-          <img src="img/blog.png" class=" w-75" alt="...">
+          <a href="https://preconisations.atos-fluides.fr/">
+            <img src="img/atos.png" class=" w-100" alt="atos-fluide">
+          </a>
         </div>
         <div class="carousel-item d-flex justify-content-center">
-          <img src="img/blog.png" class=" w-75" alt="...">
+          <a href="https://destock.phenixinfo.fr/">
+            <img src="img/destockDiscount.png" class=" w-100" alt="destock-discount">
+          </a>
         </div>
         <div class="carousel-item d-flex justify-content-center">
-          <img src="img/blog.png" class=" w-75" alt="...">
+          <a href="https://quentin.gretacfalyon.com/blog/">
+          <img src="img/blog1.png" class=" w-100" alt="blog">
+          </a>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </section>
-
 
   <!-- Contact -->
   <section class="mb-4 bg-gradient">
@@ -169,15 +161,15 @@
           <div class="row">
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="name" class="text-white">Votre Nom</label>
-                <input type="text" id="name" name="name" value="<?php echo $name;?>" placeholder="John Doe" class="form-control" required>
+                <label for="name" class="text-white">Votre Nom*</label>
+                <input type="text" id="name" name="name" value="<?php echo $name; ?>" placeholder="John Doe" class="form-control" required>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="email" class="text-white">Votre Email</label>
-                <input type="text" id="email" name="email" value="<?php echo $email;?>" placeholder="exemple@exemple.fr" class="form-control" required>
+                <label for="email" class="text-white">Votre Email*</label>
+                <input type="text" id="email" name="email" value="<?php echo $email; ?>" placeholder="exemple@exemple.fr" class="form-control" required>
               </div>
             </div>
           </div>
@@ -185,8 +177,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="md-form mb-0">
-                <label for="subject" class="text-white">Sujet</label>
-                <input type="text" id="sujet" name="sujet" value="<?php echo $sujet;?>" placeholder="Renseignement" class="form-control" required>
+                <label for="subject" class="text-white">Sujet*</label>
+                <input type="text" id="sujet" name="sujet" value="<?php echo $sujet; ?>" placeholder="Renseignement" class="form-control" required>
               </div>
             </div>
           </div>
@@ -194,17 +186,23 @@
           <div class="row">
             <div class="col-md-12">
               <div class="md-form">
-                <label for="message" class="text-white">Votre Message</label>
-                <textarea type="text" id="message" name="message" rows="2" value="<?php echo $message;?>" placeholder="Saississez votre message" class="form-control md-textarea" required></textarea>
+                <label for="message" class="text-white">Votre Message*</label>
+                <textarea type="text" id="message" name="message" rows="2" value="<?php echo $message; ?>" placeholder="Saississez votre message" class="form-control md-textarea" required></textarea>
               </div>
             </div>
           </div>
-          <div class="">
+
+          <div>
+            <input class="form-check-input" type="checkbox" id="cgu" required>
+            <label class="form-check-label" for="cgu">J'accepte les conditions générales et la politique de confidentialité</label>
+          </div>
+
+          <div>
             <div class="d-grid gap-4 col-6 mx-auto mt-5 p-5 ">
               <button class="btn btn-bordeau btn-place" type="submit" name="submit">Envoi</button>
             </div>
           </div>
-          
+
         </form>
 
         <footer class="h-25 d-flex justify-content-end">
@@ -213,14 +211,7 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-          integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-          crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-          integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-          crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>
