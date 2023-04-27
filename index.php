@@ -39,6 +39,7 @@
       <div class="text-center w-75 mx-auto">
         <article class="text-center fs-sm-6 fs-md-2">
           <h1 class="text-center p-5">Développeur web Quentin Rio</h1>
+          <h2 hidden>Présentation</h2>
           <p>Après plusieurs années au sein de l'entreprise Micromania au poste de responsable de magasin, j'ai décidé
             d'effectuer une reconversion professionnelle dans le domaine du développement web.
           <p>
@@ -199,8 +200,8 @@
               <div class="col-md-12">
                 <div class="md-form">
                   <label for="message" class="text-white">Votre Message*</label>
-                  <textarea id="message" name="message" rows="2"
-                    placeholder="Saississez votre message" class="form-control md-textarea" required></textarea>
+                  <textarea id="message" name="message" rows="2" placeholder="Saississez votre message"
+                    class="form-control md-textarea" required></textarea>
                 </div>
               </div>
             </div>
@@ -219,35 +220,38 @@
           </form>
 
 
-<?php 
-if (isset($_GET['success_message'])) {
-  $success_message = $_GET['success_message'];
-  ?>
-  <div class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="success-modal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="success-modal">Succès !</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="alert alert-success"><?php echo $success_message; ?></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <?php
-}
-?>
+          <?php
+          if (isset($_GET['success_message'])) {
+            $success_message = $_GET['success_message'];
+            ?>
+          <div id="modal1" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="success-modal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="success-modal">Succès !</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="alert alert-success">
+                    <?php echo $success_message; ?>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <?php
+          }
+          ?>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer class="h-25 d-flex justify-content-end text-white">
+  <footer class="h-25 d-flex justify-content-end text-white my-2 p-4">
     Copyright Quentin Rio
   </footer>
 
@@ -258,6 +262,7 @@ if (isset($_GET['success_message'])) {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
